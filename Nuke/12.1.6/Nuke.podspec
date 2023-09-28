@@ -17,10 +17,5 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '13.0'
     s.osx.deployment_target = '10.15'
 
-	s.source = {
-		:git => 'https://github.com/kean/Nuke.git',
-		:tag => s.version,
-	}
-
-    s.source_files = 'Sources/Nuke/**/*.swift' #, 'Sources/NukeExtensions/**/*.swift'
+    s.source_files = 'Sources/Nuke/**/*.swift'
 end
